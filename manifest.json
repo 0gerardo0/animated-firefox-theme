@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "",
+    "version": "1.0",
+    "theme": {
+      "images": {
+        "theme_frame": "images/topbar.png"
+      },
+      "colors": {
+        "frame": "#1a1a1a",
+        "tab_background_text": "#ffffff"
+      }
+    }
+  }
+  
