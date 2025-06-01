@@ -1,0 +1,23 @@
+# Ignorar archivos de GIMP y otros editores
+*.xcf
+*.jpg
+*.jpeg
+
+# Ignorar compilados
+*.xpi
+
+# Ignorar carpetas de trabajo
+images/animated-*/
+images/final-*/
+images/animation1/
+images/animation2-b/
+images/video-*.png
+images/*
+# Ignorar backups y temporales
+*~
+*.bak
+.DS_Store
+
+# Si quieres permitir algunos específicos:
+!icon.svg
+!pixelcat-theme/
