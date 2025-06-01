@@ -1,0 +1,38 @@
+{
+    "name": "animated|butterflypixelcatby0gerardo0",
+    "manifest_version": 3,
+    "version": "1.4.4",
+    "theme": {
+        "images": {
+            "theme_frame": "loop-final-b.png"
+        },
+    "colors": {
+      "frame": "rgba(152, 224, 234, 1)",                  
+      "toolbar": "rgba(63, 225, 27, 0.4)",                
+      "tab_background_text": "rgb(158, 55, 0)",        
+      "toolbar_field": "rgba(240, 235, 240, 0.80)",          
+      "tab_line": "rgb(151, 108, 7)",                   
+      "popup": "rgba(222, 180, 140, 0.9)",                   
+      "popup_text": "rgba(40, 40, 40, 1.0)",                  
+      "popup_border": "rgba(255, 224, 182, 0.6)",               
+      "popup_highlight": "rgba(255, 215, 154, 0.6)",
+      "button_background_hover": "rgba(255, 215, 154, 0.9)",  
+      "button_background_active": "rgba(255, 179, 71, 1.0)",  
+      "icons_attention": "rgba(255, 105, 0, 1.0)",            
+      "tab_loading": "rgba(255, 149, 0, 1.0)",                
+      "toolbar_bottom_separator": "rgba(255, 149, 0, 0.9)",
+      "toolbar_top_separator": "rgba(255, 149, 0, 0.9)",
+      "toolbar_field_border": "rgba(255, 149, 0, 0.9)",
+      "toolbar_field_border_focus": "rgba(211, 90, 0, 1)",
+      "toolbar_field_focus": "rgba(255, 240, 230, 1.0)",
+      "toolbar_field_highlight": "rgba(180, 240, 180, 0.9)",
+      "toolbar_field_highlight_text": "rgb(25, 80, 2)"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pixelcat-theme@gerardo0"
+    }
+  }
+}
+  
