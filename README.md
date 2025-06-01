@@ -15,7 +15,7 @@ A custom animated Firefox theme featuring pixel-art cats and looping APNG backgr
 
 You can install this theme directly from the official Firefox Add-ons page:
 
-[![Download on Firefox](https://img.shields.io/amo/v/animated-butterfly-pixelcat?label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/animated-butterfly-pixelcat/)
+[![Download on Firefox](https://img.shields.io/amo/v/animated-butterfly-pixelcat?label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/animated-butterfly-pixelcat/) -> 
 [Install on Firefox](https://addons.mozilla.org/en-US/firefox/addon/animated-butterfly-pixelcat/)
 
 ## Installation temporary or debugging
