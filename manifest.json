@@ -1,7 +1,7 @@
 {
     "name": "animated|catbutterflywindby0gerardo0",
     "manifest_version": 3,
-    "version": "1.4.0",
+    "version": "1.5.0",
     "theme": {
         "images": {
             "theme_frame": "loop-final-b.png"
@@ -9,17 +9,17 @@
     "colors": {
       "frame": "rgba(152, 224, 234, 1)",                  
       "toolbar": "rgba(63, 225, 27, 0.4)",                
-      "toolbar_text": "rgba(0, 0, 0, 1.0)",                
-      "tab_background_text": "rgb(158, 55, 0)",        
-      "tab_text": "rgb(0, 0, 0)",                      
+      "toolbar_text": "rgba(0, 0, 0, 1.0)",
+      "tab_text": "rgb(0, 0, 0)",
+      "tab_background_text": "rgb(158, 55, 0)",                      
       "toolbar_field": "rgba(240, 235, 240, 0.80)",          
       "toolbar_field_text": "black",          
       "tab_line": "rgb(151, 108, 7)",                   
       "popup": "rgba(222, 180, 140, 0.9)",                   
       "popup_text": "rgba(40, 40, 40, 1.0)",                  
       "popup_border": "rgba(255, 224, 182, 0.6)",               
-      "popup_highlight": "rgba(255, 215, 154, 0.6)",
-      "popup_highlight_text": "rgb(0, 0, 0)",           
+      "popup_highlight": "rgba(255, 195, 120, 0.95)",
+      "popup_highlight_text": "rgb(60, 25, 0)",           
       "button_background_hover": "rgba(255, 215, 154, 0.9)",  
       "button_background_active": "rgba(255, 179, 71, 1.0)",  
       "icons_attention": "rgba(255, 105, 0, 1.0)",            
@@ -36,7 +36,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "theme-cat@gerardo0.com"
+      "id": "pixelcat-theme@gerardo0"
     }
   },
   "icons": {
