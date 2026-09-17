@@ -2,30 +2,59 @@
 
 ## What this is
 
-Firefox theme extension (manifest v3) with animated APNG frame. No build step, no code — pure assets + `manifest.json`.
+Repository for animated Firefox themes (Manifest V3) with looping APNG frames. Each theme is self-contained under the `themes/` directory.
 
 ## Structure
 
-- **Root `manifest.json`** — active/published version (`pixelcat-theme@gerardo0`). This is the one loaded for debugging and submitted to AMO.
-- **`pixelcat-theme/manifest.json`** — older/alternate variant (`pixelcat-theme@gerardo0`). Same gecko.id but different version/name. Do not confuse with root.
-- **`loop-final-b.png`** — the animated theme frame referenced by both manifests.
-- **`images/`** — design source files (XCF, intermediate PNGs). Most are gitignored; only `images/loop-final.png` is tracked.
+```
+animated-firefox-theme/
+├── themes/
+│   ├── pixelcat/              # Active/published theme ("animated|catbutterflywindby0gerardo0")
+│   │   ├── manifest.json      # Extension manifest (gecko.id: pixelcat-theme@gerardo0)
+│   │   ├── loop-final-b.png   # Animated APNG theme frame
+│   │   └── icon.svg           # Theme icon
+│   └── <new-theme>/           # Additional themes follow the same structure
+│       ├── manifest.json
+│       ├── <frame>.png
+│       └── icon.svg
+├── images/                    # Design source files (XCF, intermediate PNGs, gitignored)
+├── dist/                      # Output directory for generated .xpi packages (gitignored)
+├── package.sh                 # Packaging script for AMO
+├── README.md
+└── .gitignore
+```
 
-## Editing the theme
+## Adding a New Theme
 
-- To change colors, edit `colors` in root `manifest.json`.
-- To swap the animated frame, replace `loop-final-b.png` at root and update `theme_frame` in `manifest.json` if the filename changes.
-- Always validate the manifest is valid JSON after edits (Firefox is strict about this).
+1. Create a new folder under `themes/<new-theme-name>/`.
+2. Add:
+   - `manifest.json`: Set a unique `name`, `version`, `browser_specific_settings.gecko.id`, theme `colors`, and relative path to `theme_frame`.
+   - Animated APNG image (referenced in `manifest.json` under `theme.images.theme_frame`).
+   - Icon (e.g. `icon.svg` or `icon.png`).
+3. Validate that `manifest.json` is valid JSON.
 
-## Testing locally
+## Packaging for AMO
+
+Run the packaging script to generate `.xpi` files in `dist/`:
+
+```bash
+# Package a single theme
+./package.sh <theme-name>
+
+# Package all themes
+./package.sh --all
+```
+
+## Testing Locally
 
 1. Open `about:debugging` in Firefox.
-2. Click "Load Temporary Add-on" → select root `manifest.json`.
-3. Theme applies immediately. No build or compile step.
+2. Click "This Firefox" → "Load Temporary Add-on...".
+3. Select `themes/<theme-name>/manifest.json`.
+4. The theme applies immediately.
 
 ## Gotchas
 
-- `.xpi` files are built/packaged zip archives, gitignored. Do not commit them.
-- `.xcf` files are GIMP source files, gitignored. Do not commit them.
-- There is no package.json, no linter, no formatter, no test suite.
-- The two `manifest.json` files have different `gecko.id` values — they are distinct addons.
+- Each theme folder must be self-contained: relative paths in `manifest.json` resolve from that theme's folder.
+- Each published theme on AMO must have its own unique `browser_specific_settings.gecko.id`.
+- `.xpi` files in `dist/` are zip archives and are gitignored. Do not commit them.
+- Source `.xcf` / work images in `images/` are gitignored. Do not commit them.
