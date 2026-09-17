@@ -17,7 +17,7 @@ A relaxing pixel-art animated theme featuring a cat looking into the wind with b
 - [![Download on Firefox](https://img.shields.io/amo/v/animated-butterfly-pixelcat?label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/animated-butterfly-pixelcat/)
 
 #### Preview
-![Pixelcat preview](./themes/pixelcat/loop-final-b.png)
+![Pixelcat preview](./images/loop-final.png)
 
 ---
 
