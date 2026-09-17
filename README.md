@@ -17,7 +17,7 @@ A relaxing pixel-art animated theme featuring a cat looking into the wind with b
 - [![Download on Firefox](https://img.shields.io/amo/v/animated-butterfly-pixelcat?label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/animated-butterfly-pixelcat/)
 
 #### Preview
-![Pixelcat preview](./images/loop-final.png)
+![Pixelcat preview](./themes/pixelcat/loop-final-b.png)
 
 ---
 
@@ -31,7 +31,7 @@ A pixel-art animated theme dedicated to LibreWolf, featuring a sitting wolf in t
 - **Direct Download (.xpi):** [Download `pixellibrewolf.xpi`](https://github.com/0gerardo0/animated-firefox-theme/releases/latest/download/pixellibrewolf.xpi)
 
 #### Preview
-![Pixel LibreWolf preview](./images/librewolf/loop-rainwolf.png)
+![Pixel LibreWolf preview](./themes/pixellibrewolf/loop-rainwolf.png)
 
 ---
 
