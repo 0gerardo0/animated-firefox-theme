@@ -27,8 +27,9 @@ A pixel-art animated theme dedicated to LibreWolf, featuring a sitting wolf in t
 
 - **Folder:** [`themes/pixellibrewolf/`](./themes/pixellibrewolf/)
 - **Version:** 1.0.0
-- **Gecko ID:** `pixellibrewolf-theme@gerardo0`
+- **AMO Add-on:** [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/animated-librewolf-pixel/)
 - **Direct Download (.xpi):** [Download `pixellibrewolf.xpi`](https://github.com/0gerardo0/animated-firefox-theme/releases/latest/download/pixellibrewolf.xpi)
+- [![Download on Firefox](https://img.shields.io/amo/v/animated-librewolf-pixel?label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/animated-librewolf-pixel/)
 
 #### Preview
 ![Pixel LibreWolf preview](./themes/pixellibrewolf/loop-rainwolf.png)
