@@ -1,25 +1,22 @@
-# Ignorar archivos de GIMP y otros editores
+# Archivos de diseño y trabajo
 *.xcf
 *.jpg
 *.jpeg
 
-# Ignorar compilados
+# Compilados y empaquetados
 *.xpi
+dist/
 
-# Ignorar carpetas de trabajo
+# Carpetas de trabajo en images
 images/animated-*/
 images/final-*/
 images/animation1/
 images/animation2-b/
 images/video-*.png
 images/*
-mages/1746817159329.jpg
-# Ignorar backups y temporales
+!images/loop-final.png
+
+# Backups y temporales
 *~
 *.bak
 .DS_Store
-
-# Si quieres permitir algunos específicos:
-!icon.svg
-!pixelcat-theme/
-!images/loop-final.png
