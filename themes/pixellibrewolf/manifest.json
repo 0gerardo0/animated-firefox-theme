@@ -1,0 +1,46 @@
+{
+  "name": "animated|librewolfpixelby0gerardo0",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "theme": {
+    "images": {
+      "theme_frame": "loop-rainwolf.png"
+    },
+    "colors": {
+      "frame": "rgba(0, 172, 255, 1.0)",
+      "toolbar": "rgba(255, 255, 255, 0.35)",
+      "toolbar_text": "rgb(2, 6, 23)",
+      "tab_text": "rgb(2, 6, 23)",
+      "tab_background_text": "rgb(2, 6, 23)",
+      "toolbar_field": "rgba(255, 255, 255, 0.90)",
+      "toolbar_field_text": "rgb(2, 6, 23)",
+      "tab_line": "rgb(0, 102, 204)",
+      "popup": "rgba(240, 248, 255, 0.95)",
+      "popup_text": "rgb(2, 6, 23)",
+      "popup_border": "rgba(0, 172, 255, 0.70)",
+      "popup_highlight": "rgba(180, 235, 255, 0.95)",
+      "popup_highlight_text": "rgb(2, 6, 23)",
+      "button_background_hover": "rgba(255, 255, 255, 0.40)",
+      "button_background_active": "rgba(0, 153, 230, 0.60)",
+      "icons_attention": "rgb(0, 102, 204)",
+      "ntp_background": "rgba(0, 172, 255, 1.0)",
+      "tab_loading": "rgb(0, 102, 204)",
+      "toolbar_bottom_separator": "rgba(0, 153, 230, 0.50)",
+      "toolbar_top_separator": "rgba(0, 153, 230, 0.40)",
+      "toolbar_field_border": "rgba(0, 153, 230, 0.60)",
+      "toolbar_field_border_focus": "rgba(0, 102, 204, 1.0)",
+      "toolbar_field_focus": "rgba(255, 255, 255, 1.0)",
+      "toolbar_field_highlight": "rgba(0, 172, 255, 0.45)",
+      "toolbar_field_highlight_text": "rgb(2, 6, 23)"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pixellibrewolf-theme@gerardo0"
+    }
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  }
+}
